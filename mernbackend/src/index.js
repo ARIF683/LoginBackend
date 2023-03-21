@@ -15,7 +15,7 @@ app.get("/",(req,res) =>  {
 })
 
 const start = async() => {
-    await connectDB();
+    await connectDB(process.env.MONGODB_URL);
     try {
         app.listen(PORT, () => {
             console.log("Server Connected")
