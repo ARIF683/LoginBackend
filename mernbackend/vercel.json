@@ -11,14 +11,14 @@
         },
         {
             "src": "/(.*)",
-            "dest": "/"
+            "dest": "/index.html"
         }
     ],
     "filesystem": {
         "publicFiles": [
             {
                 "source": "/public/(.*)",
-                "destination": "/"
+                "destination": "/$1"
             }
         ]
     }
