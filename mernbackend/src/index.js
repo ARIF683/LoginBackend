@@ -5,8 +5,8 @@ const PORT = process.env.PORT || 5000;
 const connectDB = require("./db/connect");
 const path = require("path");
 
-const public = path.join(__dirname, "../public")
-console.log(path.join(__dirname, "../public"))
+
+const public = path.join(__dirname, "../public");
 
 
 app.use(express.static(public));
