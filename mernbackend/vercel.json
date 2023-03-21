@@ -18,9 +18,9 @@
         "publicFiles": [
             {
                 "source": "/public/(.*)",
-                "destination": "/$1"
+                "destination": "/"
             }
         ]
-    },
-    "$schema": "./node_modules/@vercel/build-utils/schema.json"
+    }
+    
 }
